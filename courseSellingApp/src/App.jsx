@@ -1,11 +1,14 @@
 import Appbar from "./Components/Appbar"
-
+import SignUp from "./Components/Signup";
 
 function App() {
 
-  return <div>
-  <Appbar />
+  return (
+  <div style={{backgroundColor : "#eeeeee"  }}>
+    <Appbar />
+    <SignUp />
   </div>
+  )
 }
 
 export default App;
