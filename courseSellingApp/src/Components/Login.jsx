@@ -3,14 +3,11 @@ import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { Typography } from "@mui/material";
 
-function SignUp() {
+function Login() {
 	return (
 		<div style={{ paddingTop: 150, paddingBottom: 269 }}>
 			<center>
-				<Typography variant="h5">
-					{" "}
-					Welcome To eLearning Sign Up below{" "}
-				</Typography>
+				<Typography variant="h5">Welcome Back , Login below</Typography>
 				<br />
 				<Card variant="outlined" style={{ width: 400, padding: 10 }}>
 					<TextField
@@ -28,7 +25,7 @@ function SignUp() {
 					/>
 					<br /> <br />
 					<Button variant="contained" style={{ width: 100, height: 45 }}>
-						SignUp
+						Login
 					</Button>
 				</Card>
 			</center>
@@ -36,4 +33,4 @@ function SignUp() {
 	);
 }
 
-export default SignUp;
+export default Login;
